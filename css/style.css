@@ -19,6 +19,7 @@
     right:0;
     position: fixed;
     margin: 20px;
+    z-index: 2;
 }
 
 .pallino{
@@ -35,43 +36,52 @@
 
 
 /* start main */
-.red{
+.shoes{
     width: 100%;
     height: 100vh;
-    background-color: red;
+    position: relative;
 }
 
+.shoes.one{
+    background-color:red;
+
+}
+
+.shoes.two{
+    background-color: green;
+}
+
+.shoes.three{
+    background-color: yellow;
+}
+
+
+/* parte inside section */
 .box{
-    margin:auto;
-    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;    
 }
-
-
 
 .box img{
-    text-align: center;
+    width: 100%;
 }
 
 .box h2{
     color:yellow;
-    font-size: 40px;
-    text-align: center;
+    font-size: 30px;
 }
 
-
-.green{
-    width: 100%;
-    height: 100vh;
-    background-color: green;
+.shoes.three .box h2{
+    color:green;
 }
+/* fine parte inside section */
 
 
 
 
-.yellow{
-    width: 100%;
-    height: 100vh;
-    background-color: yellow;
 }
 
 /* end main */
