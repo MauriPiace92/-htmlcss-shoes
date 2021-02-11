@@ -10,6 +10,7 @@
     font-family: "Rubik Mono One", Arial, Helvetica, sans-serif;
 }
 
+/* pallini fixed */
 .shortcuts{
     position: fixed;
     top:0;
@@ -28,7 +29,10 @@
     line-height: 30px;
     margin: 10px;
 }
+/* fine pallini fixed */
 
+
+/* start main */
 .red{
     width: 100%;
     height: 100vh;
@@ -67,3 +71,5 @@
     height: 100vh;
     background-color: yellow;
 }
+
+/* end main */
